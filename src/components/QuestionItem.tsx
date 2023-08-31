@@ -33,8 +33,8 @@ export const QuestionItem = ({ question, count, onAnswer}: Props) => {
                         onClick={() => checkQuestion(key)}
                         className={`border px-3 py-2 rounded-md text-lg mb-4 text-purple-700 cursor-pointer bg-purple-100 border-purple-300 hover:bg-purple-500 hover:text-white hover:scale-105 transition-all duration-300
                         ${selectedAnswer !== null && `${questionDefault}`}
-                        ${selectedAnswer !== null && selectedAnswer === question.answer && selectedAnswer === key && 'text-white bg-green-500 border-green-400 hover:bg-green-400 hover:text-white'}
-                        ${selectedAnswer !== null && selectedAnswer !== question.answer && selectedAnswer === key && 'text-white bg-red-600 border-red-300 hover:bg-red-500'}
+                        ${selectedAnswer !== null && selectedAnswer === question.answer && selectedAnswer === key && 'text-white bg-green-600 border-green-400 hover:bg-green-500 hover:text-white'}
+                        ${selectedAnswer !== null && selectedAnswer !== question.answer && selectedAnswer === key && 'text-white bg-red-500 border-red-300 hover:bg-red-400'}
                         `}
                         >{item}</div>
                 ))}

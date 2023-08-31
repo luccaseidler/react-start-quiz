@@ -2,103 +2,103 @@ import { Question } from "@/types/Question";
 
 export const questions: Question[] = [
     {
-        question: 'Qual integrante dos Privs vende consórcios?',
+        question: 'Quem descobriu a gravidade?',
         options: [
-            'Kraemer',
-            'Menego',
-            'Matheus',
-            'Pedro Consórcios'
+            'Cristovão Colombo',
+            'Oppenheimer',
+            'Neymar',
+            'Isaac Newton'
         ],
         answer: 3
     },
     {
-        question: 'Qual integrande dos privs gosta da ex dos amigos?',
+        question: 'Qual a linguagem de programação mais utilizada atualmente?',
         options: [
-            'Stadulni',
-            'Menezes',
-            'Toloya',
-            'Matheus'
+            'Assembly',
+            'Python',
+            'C++',
+            'Java'
+        ],
+        answer: 3
+    },
+    {
+        question: 'Qual jogador teve mais gols na temporada 22/23?',
+        options: [
+            'Salah',
+            'Haaland',
+            'Deyverson',
+            'Suarez'
         ],
         answer: 1
     },
     {
-        question: 'Qual dos Privs se limpa de pé?',
+        question: 'Qual a melhor hora do dia?',
         options: [
-            'Stadulni',
-            'Seidler',
-            'Matheus',
-            'Kraemer'
-        ],
-        answer: 0
-    },
-    {
-        question: 'Quem é o rei do almoço?',
-        options: [
-            'Pedro Consórcios',
-            'Gordo',
-            'Matheus',
-            'Gaist'
+            'Manhã',
+            'Tarde',
+            'Almoço',
+            'Noite'
         ],
         answer: 2
     },
     {
-        question: 'Complete a frase: "Larga meu..." ',
+        question: 'Quem é o criador do Windows?',
         options: [
-            'Tico',
-            'Pinto',
-            'Primo',
-            'Amigo'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Quem uma vez disse "Eu sou Seidler, eu sou Louco"? ',
-        options: [
-            'Pimenta',
-            'Seidler',
-            'Thiago',
-            'Matheus'
-        ],
-        answer: 0
-    },
-    {
-        question: 'Quem é considerado o "Esquema de apostas" do grupo?',
-        options: [
-            'Dudou',
-            'Facchin',
-            'Gordo',
-            'Kraemer'
-        ],
-        answer: 0
-    },
-    {
-        question: 'Molho e ...',
-        options: [
-            'Peixe',
-            'Bife',
-            'Massa',
-            'Arroz'
+            'Steve Jobs',
+            'Bill Gates',
+            'Mark Zuckerberg',
+            'Whindersson Nunes'
         ],
         answer: 1
     },
     {
-        question: 'Quem se denomina "Tiquinho"?',
+        question: 'Campeão da Libertadores 2023',
         options: [
-            'Seidler',
-            'Stadulni',
-            'Matheus',
-            'Gordo'
+            'Palmeiras',
+            'Inter',
+            'Boca Jrs',
+            'Fluminense'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Quem é o maior Rapper de todos os tempos?',
+        options: [
+            'Manoel Gomes (Caneta Azul)',
+            'Travis Scott',
+            'Drake',
+            'Kanye West'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Qual desses não é um sabor de Monster?',
+        options: [
+            'Pessêgo',
+            'Limão',
+            'Manga',
+            'Morango'
+        ],
+        answer: 3
+    },
+    {
+        question: 'Quantos planetas tem no sistema solar?',
+        options: [
+            '8',
+            '10',
+            '5',
+            '9'
         ],
         answer: 0
     },
     {
-        question: 'Qual das opções NÃO venceria um desafio de silêncio por 30 segundos?',
+        question: 'Qual dessas não é uma linguagem de programação?',
         options: [
-            'Kraemer e Pedro',
-            'Thiago e Gordo',
-            'Lucca e Felippe',
-            'Matheus e Rafael'
+            'Java',
+            'Kotlin',
+            'Assembly',
+            'Microsoft Teams'
         ],
-        answer: 0
+        answer: 3
     }
 ];
